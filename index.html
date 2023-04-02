@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com -->
+  <title>Bootstrap Theme Company Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volunteering Opportunities</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    background-color:#001233;
+    color: beige;
+  }
+  h2 {
+    font-size: 34px;
+    color: coral;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+
+.row{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+img {
+  width: 450px;
+  height: 300px;
+  margin-top:50px;
+  float:center;
+}
+  .results-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  width: 600px;
+  text-align:center;
+  margin: auto;
+  border: 1px solid coral;
+  width: 700px;
+  height: 800px;
+  margin-top: 50px;
+  background-color:#001233;
+  color: #001233;
+}
+
+.results{
+    background-color: #001233;
+}
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: beige;
+    font-weight: 400;
+  }  
+  .jumbotron {
+    background-image: url("https://govolunteerafrica.org/wp-content/uploads/2020/10/Morocco-Community-Volunteer-Work.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat ;
+    font-family: Montserrat, sans-serif;
+    height: 700px;
+    display:-ms-flexbox;
+    align-items: center;
+    justify-content: center;
+    padding:95px;
+    color:#001233;
+    font-weight:bold;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+
+  .row2{
+    text-align: center;
+  }
+
+  .box1{
+    width: 430px;
+    height: 825px;
+    background-color:white;
+    border: 4px solid gray;
+    padding: 20px;
+    color: black;
+    
+  }
+
+.form-group{
+    width: 600px;
+    padding: 1.1rem;
+    font-size: 20px;
+    padding-bottom: 200px ;
+    font: 400 20px Lato, sans-serif;
+    border-radius: 4px solid white;
+    border: #fff;
+    color:coral;
+
+}
+
+.form-control{
+    margin-top: 20px;
+    border-radius: 4px solid white;
+    border: #fff;
+}
+
+.volwhat2{
+    margin-right: 150px;
+}
+
+
+
+.box4{
+    
+    width: 640px;
+    height: 200px;
+    background-color:#001233;
+    border: 4px solid white;
+    padding: 20px;
+    color: black;
+    padding-top: 50px;
+    border-radius: 4px solid white;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    
+}
+
+.btn-btn-primary{
+    color: beige;
+    margin-top: 100px;
+    font: 400 20px Lato, sans-serif;
+    padding: 15px;
+
+
+}
+  .imageblog1{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+  }
+  .bg-grey {
+    background-color: #001233;
+  }
+  .logo-small {
+    color: #f4511e;
+    font-size: 50px;
+  }
+  .logo {
+    color: #001233;
+    font-size: 200px;
+  }
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #001233;
+  }
+  .carousel-indicators li {
+    border-color: #001233;
+  }
+  .carousel-indicators li.active {
+    background-color: #001233;
+  }
+  .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+  .item span {
+    font-style: normal;
+  }
+  .panel {
+    border: 1px solid #001233; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: #001233;
+  }
+  
+
+  .col-sm-6{
+    display: flex;
+    justify-content: center;
+  }
+  .panel-heading {
+    color: #fff !important;
+    background-color: coral !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .img2{
+    width: auto;
+    height: auto;
+    margin-left: -20px;
+  }
+
+  .row{
+    margin-top: -25px;
+  }
+  .panel-footer {
+    background-color: #001233 !important;
+  }
+  .panel-footer h3 {
+    font-size: 32px;
+  }
+  .panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+  }
+  .panel-footer .btn {
+    margin: 15px 0;
+    background-color: #f4511e;
+    color: #fff;
+  }
+  .navbar {
+    margin-bottom: 0;
+    background-color: #001233;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: beige !important;
+
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: beige !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+
+  .volwhat1{
+    text-align:center;
+    border: 3px solid #001233;
+    width: 700px;
+    padding:25px;
+  }
+  footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #001233;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+  }
+
+  .row{
+    background-color:#001233;
+    margin-bottom: -20px;
+  }
+
+  .container-fluid{
+    margin-top: -70px;
+  }
+
+  .row2{
+    margin-bottom: 70px;
+    color:coral;
+  }
+  .box1{
+    background-color: #001233;
+    color:beige;
+  }
+
+  .experiencetitle{
+    text-align: center;
+    color:beige;
+    margin-bottom:40px;
+    font-size: 25px;
+  }
+
+ .list{
+    background-color: #001233;
+ }
+
+
+  .p1p{
+    color:beige;
+  }
+
+  .w3-image{
+    width: 200px;
+    height: 1000px;
+  }
+  </style>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">Volunteering</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">Home</a></li>
+        <li><a href="#services">Volunteer Now</a></li>
+        <li><a href="#portfolio">Contact</a></li>
+        <li><a href="#pricing">By: Ahmed Hatimi</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>Volunteering Finder </h1> 
+  <p>Find the Perfect Volunteering Activity for you in Morocco</p> 
+  <form>
+    <div class="input-group">
+      <div class="input-group-btn">
+        <button onclick="scrollToContainer()" type="button" class="btn btn-danger">Volunteer Now</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2 class="volwhat1">What is Volunteering ?</h2><br>
+      <h4 class="volwhat2">Volunteering is an act of selfless service where individuals contribute their time, skills, and resources towards making a positive impact in their communities or in society as a whole. It is a powerful tool for effecting change, promoting social justice, and building stronger, more connected communities.</h4><br>
+      <p class="volwhat2">Volunteering can take many forms, from assisting with disaster relief efforts, to tutoring students, to working with animals, to providing support for those in need. It is an opportunity to give back and make a difference, while also gaining valuable experience, building new relationships, and developing a deeper sense of empathy and compassion. By volunteering, individuals can learn about themselves and their communities, develop new skills, and work towards a common goal of creating a better world for everyone. In a world that is increasingly disconnected and divided, volunteering is more important than ever, as it allows us to come together and work towards a shared vision of a better future.</p>
+    </div>
+    <div class="col-sm-4">
+      <img class="img2" src="https://cdn-icons-png.flaticon.com/512/5256/5256373.png"></span>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row2">
+    <h2>People's Experiences</h2>
+  </div>
+<hr></hr>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="box1">
+                <hr>
+                <h2 class="experiencetitle">My Experience Volunteering with Off To Morocco</h2>
+                <h5><span class="glyphicon glyphicon-time"></span> Post by Julia A, Jan 24, 2022.</h5>
+                <h5><span class="label label-danger">Morocco</span> <span class="label label-primary">Community</span></h5><br>
+                <p class="p1p"> I appreciate the following during the volunteering. I felt like they take care of us. the experience in the association was
+                    really nice too. It was easy to communicate with them
+                    even though we didn't speak the same language. I
+                    recommend it to people who want to know another
+                    culture and language. Everything was so nice. The
+                    experience with the family, it was amazing too. Esma's
+                    family were very close to us, paying attention to our
+                    comfort. we had fun with them. Thank you very much
+                    for everything.</p>
+                    <hr></hr>
+                <img class="imageblog1" src="https://offtomorocco.files.wordpress.com/2019/01/img_7238.jpg?w=750">            
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="box1">
+                <hr>
+                <h2 class="experiencetitle">My Experience Being a English Language Teacher</h2>
+                <h5><span class="glyphicon glyphicon-time"></span> Post by Amina E, Jul 24, 2021.</h5>
+                <h5><span class="label label-danger">Morocco</span> <span class="label label-primary">Education</span></h5><br>
+                <p class="p1p"> I was sceptical at first and hesitated to commit. But
+                    ended up signing up to go with my brother and to
+                    fulfill my high school volunteer requirement. I am glad
+                    I did! I loved it and found it a very inspiring and
+                    uplifting experience. The youth teaching program is a
+                    great learning and teaching opportunity. I enjoyed
+                    working with the experienced staff and the children a
+                    lot more than I thought I would. There is a lot to see
+                    and do in Morocco. The places, the beaches, the
+                    people are very welcoming and beautiful! I was able to
+                    relax, make new friends and enjoy super delicious
+                    Moroccan food.</p>
+                    <hr></hr>
+                <img class="imageblog1" src="https://rs.projects-abroad.co.uk/v1/products/community-based-care-rather-than-volunteering-in-orphanages-abroad-product-5dee45616b020.[1090].jpeg">            
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="box1">
+                <hr>
+                <h2 class="experiencetitle">Rewarding Experience</h2>
+                <h5><span class="glyphicon glyphicon-time"></span> Post by Hanna V, Jan 24, 2022.</h5>
+                <h5><span class="label label-danger">Morocco</span> <span class="label label-primary">Women Education</span></h5><br>
+                <p class="p1p"> Pushed myself out of my comfort zone to come and
+                    volunteer in morocco and honestly wish i'd could
+                    spend longer here. The experience was so rewarding-
+                    from living in the traditional moroccan streets in the
+                    medina to being able to teach children and women
+                    english and helping them improve their skills. The
+                    people here are so unbelievably friendly that i felt right
+                    at home from the start- i'm glad i chose morocco as
+                    the place where i got to do my first volunteering</p>
+                    <hr></hr>
+                <img class="imageblog1" src="https://www.volunteerhq.org/images/projects/morocco/volunteer-abroad-in-morocco-ivhq-womens-education.jpg">            
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+<div id="container">
+<div id="services" class="container-fluid text-center">
+    <div class="row2">
+        <h2>Find the Ideal Volunteering Job For You</h2>
+      </div>
+    <hr></hr>
+        <div class="row22">
+            <div class="col-sm-6">
+                <div class="box4">
+                    <div class="form-group">
+                        <label for="area">What Area Do you Want to Volunteer In ?</label>
+                        <select class="form-control" id="area">
+                            <option value="Casablanca">Casablanca</option>
+                            <option value="Marrakech">Marrakech</option>
+                            <option value="Ouarzazate">Ouarzazate</option>
+                            <option value="Rabat">Rabat</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="box4">
+                    <div class="form-group">
+                        <label for="type">What Type of Volunteering Job Do you Want to Do ?</label>
+                        <select class="form-control" id="type">
+                            <option value="Green">Environmental Volunteering</option>
+                            <option value="Education">Volunteering in Kid's or Women's Education</option>
+                            <option value="Sport">Sports Volunteering</option>
+                            <option value="Animal">Animal Volunteering</option>
+                            <option value="Community">Community Volunteering</option>
+                        </select>
+                    </div>
+                </div>
+              </div>
+            </div>
+    <div class="row4">
+        <button class="btn btn-primary" onclick="searchOpportunities()">Search</button>
+
+        <div class="results-container" id="results"></div>
+    </div>
+    </div>
+
+</div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">Contact</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p><span class="glyphicon glyphicon-map-marker"></span> Casablanca, Morocco</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +212 234682462</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+    </div>
+    </div>
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="https://www.worldeasyguides.com/wp-content/uploads/2014/02/Map-of-Casablanca.jpg" class="w3-image" style="width:100%">
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+</footer>
+
+<script>
+
+function scrollToContainer(){
+    const container = document.getelementById("container");
+    container.scrollIntoView({behavior:"smooth"});
+}
+
+
+const opportunities = [
+    {
+      name: 'Animal Caretaker Assistant',
+      area: 'Rabat',
+      type: 'Animal',
+      description: 'Rabat is the capital of street animals, this volunteering program includes activities such as feeding, grooming, and exercicing animals cleaning, disinfect, and repair the kennels and cages.',
+      contact: 'Off to Morocco Agency (Volunteer Organisation)',
+      image:'https://offtomorocco.files.wordpress.com/2019/01/animal-care.jpg?w=1024'
+    },
+    {
+      name: 'Kids Caretaker',
+      area: 'Rabat',
+      type: 'Community',
+      description: 'Work is with kids from underprivileged families through organizing activities to entertain them and help develop their cognitive skills (music, dance, toys, and games)',
+      contact: 'Off to Morocco Agency (Volunteer Organisation)',
+      image:'https://www.volunteerworld.com/storage/01ff2098f5a65b497c32e7097b5c3450484fe76b/mmexport1545733192420.jpg'
+
+    },
+    {
+      name: 'Sports Volunteer',
+      area: 'Rabat',
+      type: 'Sport',
+      description: 'As sports’ volunteer, you will be joining sport classes taken place after school and will be assisting the coach in teaching children new skills and helping them to be more active and dynamic.',
+      contact: 'Go Experience Morocco Agency (Info@GoExperienceMorocco.com)',
+      image:'https://i0.wp.com/goexperiencemorocco.com/wp-content/uploads/2022/05/IMG_7076-scaled.jpg?fit=1024%2C768&ssl=1'
+      
+    },
+    {
+      name: 'Protecting the Enviroment Volunteer ',
+      area: 'Rabat',
+      type: 'Green',
+      description: 'Activities for the environment: Contribution to the protection of the environment. Creation of voluntary cleanliness sites. Contribution to the deepening of awareness for the fight against garbage in residential neighborhoods.',
+      contact: 'Association Chantiers de Developpement au Maroc',
+      image:'https://www.globalong.com/media/cache/my_thumb_750_450/img_site/upload/2020/globalong%20humanitarian-5fb39c1bc7d51.jpeg'
+
+    },
+    {
+      name: 'Teaching English Volunteer',
+      area: 'Rabat',
+      type: 'Education',
+      description: 'As an English teacher, you will be teaching basic English language skills to children from disadvantaged communities in Rabat. You will be responsible for developing lesson plans, teaching classes, and evaluating students’ progress.',
+      contact: 'Volunteer HQ Morocco (info@volunteerhq.org)',
+      image: 'https://ivhq.imgix.net/images/projects/morocco/volunteer-abroad-in-morocco-ivhq-sports-education.jpg?w=720&h=350&fit=crop&crop=faces,center&auto=format,compress&q=30'
+    },
+    {
+      name: 'Animal Welfare Volunteer',
+      area: 'Casablanca',
+      type: 'Animal',
+      description: 'As an animal welfare volunteer in Casablanca, you will work with a local animal shelter or rescue organization to help care for abandoned, abused, or neglected animals. Your role may include feeding and watering animals, providing medical care, grooming and exercising them, and helping to maintain their living spaces. You may also assist with animal rescue and rehabilitation efforts, as well as education and awareness campaigns to promote responsible pet ownership and animal welfare in the community.',
+      contact: 'Please contact Adan Maroc on Instagram for more information on animal-related volunteer opportunities in Casablanca.',
+      image:'https://www.sftmorocco.org/wp-content/uploads/sb-instagram-feed-images/272761889_428570452347023_5644854318961267382_nfull.jpg'
+    
+    },
+    {
+      name: 'Childcare Volunteer',
+      area: 'Casablanca',
+      type: 'Community',
+      description: 'As a childcare volunteer, you will be working with children from disadvantaged backgrounds in Casablanca. You will be responsible for organizing educational and recreational activities for the children, providing basic care such as feeding and changing, and helping to maintain a safe and clean environment for the children.',
+      contact: 'Go Experience Morocco (info@goexperiencemorocco.com)',
+      image:'https://goexperiencemorocco.com/wp-content/uploads/slider/cache/fe1d50bd9af4ead76a7efcf9268a7de0/Study-Trip.jpg'
+    },
+    {
+      name: 'Sports Volunteer',
+      area: 'Casablanca',
+      type: 'Sport',
+      description: 'As a sports volunteer in Casablanca, you will have the opportunity to work with local sports clubs and organizations to help promote physical activity and healthy lifestyles among children and youth in the community. Your role may include assisting with coaching and training, organizing sports events and tournaments, and helping to maintain sports facilities and equipment.',
+     contact: 'Off to Morocco (info@offtomorocco.com)',
+     image:'https://offtomorocco.files.wordpress.com/2021/04/mmexport1546702696356-edited.jpg'
+    },
+    {
+      name: 'Environmental Volunteer',
+      area: 'Casablanca',
+      type: 'Green',
+      description: 'As an environmental volunteer in Casablanca, you will work with a local environmental organization to promote conservation and sustainability efforts in the community. You may participate in beach cleanups, tree planting, recycling programs, or other environmental projects to help protect the natural environment and raise awareness of environmental issues.',
+      contact: 'Surfrider Foundation Morocco (contact@surfridermaroc.com)',
+      image:'https://surfmaroc.com/wp-content/uploads/image-cache-dir/89235901_905454426556053_5008042763191582720_n-3afssv9gnxqlwleoh7hbm2.jpg'
+    },
+    {
+      name: 'Womens Education Volunteer',
+      area: 'Casablanca',
+      type: 'Education',
+      description: 'As a womens education volunteer in Casablanca, you will work with a local organization to empower women and girls through education and skills development. You may teach classes in basic literacy, English, or computer skills, or provide vocational training to help women become more self-sufficient. This opportunity will allow you to make a difference in the lives of women and girls in the community.',
+      contact: 'Go Experience Morocco (info@goexperiencemorocco.com)',
+      image:'https://i0.wp.com/goexperiencemorocco.com/wp-content/uploads/2022/05/IMG-20170929-WA0000.jpg?ssl=1'
+    },
+    {
+      name: 'Animal Care Volunteer',
+      area: 'Ouarzazate',
+      type: 'Animal',
+      description: 'As an animal care volunteer in Ouarzazate, you will work with Jarjeer Mule and Donkey Refuge to help care for rescued animals. Your role may include feeding and watering animals, grooming and exercising them, and helping to maintain their living spaces. You may also assist with veterinary care and rehabilitation efforts for injured or sick animals.',
+      contact: 'Jarjeer Mule and Donkey Refuge (info@jarjeer.org)',
+      image:'https://www.moroccoworldnews.com/wp-content/uploads/2020/12/Jarjeer-refuge-4.jpeg'
+    },
+    {
+      name: 'Community Development Volunteer',
+      area: 'Ouarzazate',
+      type: 'Community',
+      description: 'As a community development volunteer in Ouarzazate, you will work with a local organization to support community-based initiatives and projects that promote economic development, social inclusion, and sustainable development. Your role may include conducting community assessments, facilitating community meetings and workshops, and providing technical assistance and capacity-building support to community members and local organizations.',
+      contact: 'Association Toudarte pour le Développement et la Solidarité (contact@toudarte.org)',
+      image: 'https://freevolunteering.net/wp-content/uploads/2019/03/20245976_10155699457519644_4701895597629075006_n.jpg'
+    },
+    {
+      name: 'Sports Coaching Volunteer',
+      area: 'Ouarzazate',
+      type: 'Sport',
+      description: 'As a sports coaching volunteer in Ouarzazate, you will work with Association Al Mada pour le Sport et la Culture to help promote physical activity and healthy lifestyles among children and youth in the community. Your role may include coaching and training young athletes in various sports, organizing sports events and tournaments, and helping to maintain sports facilities and equipment.',
+      contact: 'Association Al Mada pour le Sport et la Culture (contact@assohelp.org)',
+      image: 'https://images.squarespace-cdn.com/content/v1/548e1c0be4b09f8fd738af5e/1429055664434-WNVTOJCWXP30AZ0YC4P2/IMG_0918.JPG?format=500w'
+    },
+    {
+      name: 'Environmental Conservation Volunteer',
+      area: 'Ouarzazate',
+      type: 'Green',
+      description: 'As an environmental conservation volunteer in Ouarzazate, you will work with Association Tifawine to support efforts to protect and conserve the natural environment in the region. Your role may include conducting environmental assessments, planting trees and other vegetation, cleaning up litter and debris from natural areas, and supporting efforts to raise awareness about environmental issues in the community.',
+      contact: 'Association Tifawine (contact@association-tifawine.org)',
+      image:'https://moroccovolunteeringprograms.files.wordpress.com/2017/02/9196_1082235288495713_7580422284510131495_n.jpg'
+    },
+    {
+      name: 'Solidarity Camp Assistant',
+      area: 'Ouarzazate',
+      type: 'Education',
+      description: 'As a solidarity camp assistant in Ouarzazate, you will work with a local organization to support educational and cultural activities for children and youth in the community. Your role may include assisting with language classes, art projects, and other educational activities, as well as facilitating intercultural exchange and learning among camp participants. This opportunity will allow you to gain valuable experience in education and cultural exchange while making a difference in the lives of young people.',
+      contact: 'Amine JALAL (info@morocco-excursion.com)',
+      image:'https://adventurevolunteer.org/en/wp-content/uploads/2020/02/viajes-a-marruecos.jpg'
+    },
+    {
+      name: 'Animal Care Volunteer',
+      area: 'Marrakech',
+      type: 'Animal',
+      description: 'As an animal care volunteer in Marrakech, you will work with the Society for the Protection of Animals and Nature (SPANA) to provide medical care and rehabilitation for sick and injured animals. Your role may include feeding and watering animals, administering medication, assisting with surgery and medical procedures, and providing exercise and socialization for the animals in your care.',
+      contact: 'Society for the Protection of Animals and Nature (SPANA) - Marrakech Centre (info@spana.org.ma)',
+      image:'https://latribunedemarrakech.com/wp-content/uploads/2013/04/spana.jpg'
+    },
+    {
+      name: 'Community Service Volunteer',
+      area: 'Marrakech',
+      type: 'Community',
+      description: 'As a community service volunteer in Marrakech, you will work with a local organization to support community-based projects that promote economic development, social inclusion, and environmental sustainability. Your role may include working on infrastructure projects, providing educational support and tutoring, or supporting community events and activities. This opportunity will allow you to engage with local community members, learn about Moroccan culture, and contribute to the well-being of the community.',
+      contact: 'Putney Student Travel (info@goputney.com)',
+      image:'http://blog.cfp-dc.org/wp-content/uploads/2018/09/ADFM-Caravan-1.jpg'
+    },
+    {
+      name: 'Youth Sports Coach Volunteer',
+      area: 'Marrakech',
+      type: 'Sport',
+      description: 'As a youth sports coach volunteer in Marrakech, you will work with Association Marrakech Alliance to help coach and mentor young athletes in the community. Your role may include leading sports clinics and workshops, organizing youth sports leagues and tournaments, and providing guidance and support to young athletes to help them develop their skills and reach their potential.',
+      contact: 'Association Marrakech Alliance (contact@marrakech-alliance.org)',
+      image:'https://i0.wp.com/goexperiencemorocco.com/wp-content/uploads/2022/05/IMG_0259.jpg?resize=1170%2C437&ssl=1'
+    },
+    {
+      name: 'Green Volunteer',
+      area: 'Marrakech',
+      type: 'Green',
+      description: 'As a green volunteer in Marrakech, you will work with a local environmental organization to support efforts related to conservation, sustainability, and environmental education. Your role may include participating in tree planting and habitat restoration projects, assisting with waste reduction and recycling initiatives, and helping to raise awareness about environmental issues through educational campaigns and outreach activities.',
+      contact: 'Association Marocaine des Droits Humains - Marrakech (amdhh.marrakech@gmail.com)',
+      image:'https://www.volunteeringsolutions.com/asset/uploads/img/page_header_image/root/1340_environment_conservation_2.jpg'
+    },
+    {
+      name: 'Community Education Volunteer',
+      area: 'Marrakech',
+      type: 'Education',
+      description: 'As a community education volunteer in Marrakech, you will work with a local organization to promote education and literacy among children and youth in the community. Your role may include teaching basic literacy and numeracy skills, providing support for homework and school assignments, and organizing educational activities and workshops. This opportunity will allow you to make a positive impact in the lives of young people and help promote lifelong learning.',
+      contact: 'Putney Student Travel (info@goputney.com)',
+      image:'https://res-1.cloudinary.com/abroad101/image/upload/c_limit,f_auto,h_800,w_800/v1459858847/Program_15694_ProfilePhoto_8700_6a37.jpg'
+  
+    },
+
+
+   // Add more volunteering opportunities here
+  ];
+    // ...
+
+
+function searchOpportunities() {
+    const area = document.getElementById('area').value;
+    const type = document.getElementById('type').value;
+
+    const results = opportunities.filter(opportunity => opportunity.area === area && opportunity.type === type);
+
+    displayResults(results);
+}
+
+function displayResults(results) {
+    const resultsDiv = document.getElementById('results');
+    
+    if (results.length === 0) {
+        resultsDiv.innerHTML = '<p>No opportunities found. Please try again with different choices.</p>';
+        return;
+    }
+    
+    const list = document.createElement('ul');
+    list.className = 'list-group';
+    
+    for (const result of results) {
+        const listItem = document.createElement('li');
+        listItem.className = 'list-group-item';
+
+        const nameElement = document.createElement('h2');
+        nameElement.innerText = result.name;
+        listItem.appendChild(nameElement);
+
+        const contactElement = document.createElement('p');
+        contactElement.innerText = `Contact: ${result.contact}`;
+        listItem.appendChild(contactElement);
+
+        const areaElement = document.createElement('p');
+        areaElement.innerText = `Area: ${result.area}`;
+        listItem.appendChild(areaElement);
+
+        const typeElement = document.createElement('p');
+        typeElement.innerText = `Type: ${result.type}`;
+        listItem.appendChild(typeElement);
+
+        const descriptionElement = document.createElement('p');
+        descriptionElement.innerText = result.description;
+        listItem.appendChild(descriptionElement);
+
+        if (result.image) {
+            const imageElement = document.createElement('img');
+            imageElement.src = result.image;
+            listItem.appendChild(imageElement);
+        }
+
+        list.appendChild(listItem);
+    }
+    
+    resultsDiv.innerHTML = '';
+    resultsDiv.appendChild(list);
+}
+
+</script>
+
+
+</body>
+</html>
